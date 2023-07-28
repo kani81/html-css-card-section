@@ -1,0 +1,73 @@
+/*mobile*/
+@media(min-width:320px){
+    .row {
+
+        flex-wrap: wrap;
+    }
+    .col-1{
+        width:100%;
+        padding-bottom: 20px;
+      
+    }
+    .col-section{
+        padding:20px;
+    }
+    .col{
+        display: flex;
+        padding-left: 20px;
+    
+    }
+    .col-2{
+        width:100%;
+    }
+    .col-3{
+        width:100%;
+    }
+
+}
+/*ipad*/
+@media(min-width:660px){
+    .row {
+        
+        flex-wrap: wrap;
+    }
+    .col-section{
+        padding:20px;
+    }
+    .col{
+        display: flex;
+        padding-left: 40px;
+        padding-bottom: 40px;
+    
+    }
+    .col-1{
+        width:100%;
+    }
+    .col-2{
+        width:100%;
+    }
+    .col-3{
+        width:100%;
+    }
+}
+/*labtop*/
+@media(min-width:1000px){
+.row {
+    display: flex;
+}
+.col-section{
+    padding:6px;
+}
+.col{
+    flex-direction: column;
+}
+.col-1{
+    width:20%;
+}
+.col-2{
+    width:40%;
+}
+.col-3{
+    width:40%;
+}
+}
